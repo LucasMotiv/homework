@@ -272,17 +272,3 @@
 }
     
 }
-/* @media (max-width: 850px) {
-    .buttons {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .btn {
-        display: inline-block;
-        max-width: 250px;
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-    }
-} */
