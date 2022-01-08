@@ -19,7 +19,6 @@
 .main {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .main-text {
@@ -31,6 +30,9 @@
     width: 50%;
 }
 
+.main-image img {
+    width: 100%;
+}
 .title {
     font-size: 48px;
     font-weight: 700;
@@ -92,9 +94,9 @@
 .shipping-headline {
     font-size: 30px;
     font-weight: 700;
-    margin-left: 490px;
     color: #333333;
     margin-bottom: 90px;
+    text-align: center;
 }
 
 .shipping-item span {
@@ -104,6 +106,7 @@
     color: #333333;
     margin-right: 134px;
     line-height: 22px;
+    margin-top: px;
   
     
 }
@@ -129,160 +132,157 @@
 }
 
 .people-headline {
-    margin-left: 493px;
     font-size: 30px;
     font-weight: 700;
     color: #333333;
     margin-bottom: 69px;
+    text-align: center;
 }
 
 .people-wrap {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 60px;
 }
 
 .people-block {
-    width: 16%;
+    width: 23%;
     margin-bottom: 40px;
-    margin-left: 80px;
+    
 }
 
-@media (max-width: 1240px) {
+.people-block img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-left: 31px;
+}
+
+@media (max-width:1024px) {
+        .top-header {
+            margin-bottom: 140px;
+        }
+
+        .main-image {
+        width: 100%;
+        margin-top: 70px;
+       }
     
-    .buttons {
+       .main-text {
+        width: 100%;
+        
+       }
+
+       .title {
+           padding-top: 70px;
+       }
+
+       .buttons {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
     }
-
     .btn {
         display: inline-block;
         max-width: 250px;
-        text-align: center;
         width: 100%;
+        text-align: center;
         margin-top: 10px;
-
     }
 }
 
-@media (max-width: 1010px) {
-    
-   .main-image {
-    width: 100%;
-    margin-top: 5%;
 
-   }
+@media (max-width: 768px) {
+    .top-header {
+        margin-bottom: 70px;
+    }
 
-   .main-text {
-    width: 100%;
-   }
+    .main {
+        flex-direction: column;
+    }
 
+    .main-image {
+        margin-top: 70px;
+    }
 
-   .main {
-       flex-direction: column;
+    .main-text {
+        padding-left: 40px;
+    }
 
-     
-   }
+    .title {
+        padding-top: 90px;
+    }
 
-   .title {
-       padding-top: 5%;
-   }
+    .desc {
+        margin-bottom: 20px;
+    }
 
-   .top-header {
-       margin-bottom: 5%;
-   }
-
-   .people-block {
-    width: 40%;
-}
-}
-
-@media (max-width: 800px) {
-    .shipping-item {
-        width: 50%;
+    .price {
         margin-bottom: 30px;
     }
 
 
-    .shipping-headline {
-        margin-left: 0px;
+    .shipping-wrap {
+        flex-wrap: wrap;
+        margin-left: 148px;
+    }
+
+    .shipping-item {
+        width: 50%;
+    }
+
+    .shipping-item img {
+        margin-bottom: 20px;
+    }
+
+    .shipping-item span {
+        margin-bottom: 20px;
+    }
+
+    .people {
+        padding-bottom: 50px;
+    }
+    
+    .people-wrap {
+        padding-left: 67px;
+    }
+
+    .people-block {
+        width: 45%;
+    }
+
+@media (max-width: 580px) {
+
+    .shipping {
+        padding: 40px 0 ;
     }
 
     .shipping-wrap {
-        flex-wrap: wrap;
-        margin-left: 0px;
+        margin-left: 146px;
     }
 
+    .people {
+        padding-bottom: 25px;
+        padding-top: 40px;
+    }
+
+    .people-wrap {
+        padding-left: 30px;
+    }
 }
-
-
-
-
-@media (max-width: 1136px) {
-
-    .people-block {
-        width: 20%;
-    }
     
-    .people-headline {
-        margin-left: 370px;
-    }
-
 }
-
-@media (max-width: 580px) {
-    .shipping-item {
+/* @media (max-width: 850px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn {
+        display: inline-block;
+        max-width: 250px;
         width: 100%;
-        
+        text-align: center;
+        margin-top: 10px;
     }
-
-    
-}
-
-@media (max-width: 720px) {
-    .people-headline {
-        margin-left: 0px;
-    }
-
-    .people-block {
-        margin-left: 0px;
-        width: 50%;
-       
-    }
-}
-
-@media (max-width: 620px) {
-    .people-headline {
-        margin-left: 0px;
-    }
-
-    .shipping {
-        padding: 5%;
-    }
-
-}
-
-@media (max-width: 988px) {
-
-    .people-block {
-        width: 30%;
-        margin-left: 80px;
-    }
-    
-}
-
-@media (max-width: 650px) {
-    .people-block {
-        width: 35%;
-    }
-}
-
-@media (max-width: 550px) {
-    
-        .people-block {
-            margin-left: 0%;
-            width: 55%;
-        }
-}
-
+} */
