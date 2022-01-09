@@ -1,2 +1,2 @@
 # Domácí úkoly
-Lukáš Richter - Repozitář s domácímí úkoly
+Lukáš Richter - Repozitář s domácími úkoly
