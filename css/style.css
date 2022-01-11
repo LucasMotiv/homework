@@ -184,7 +184,7 @@
     }
     .btn {
         display: inline-block;
-        max-width: 250px;
+        max-width: 300px;
         width: 100%;
         text-align: center;
         margin-top: 10px;
@@ -215,6 +215,7 @@
 
     .desc {
         margin-bottom: 20px;
+        margin-right: 0px;
     }
 
     .price {
@@ -237,6 +238,7 @@
 
     .shipping-item span {
         margin-bottom: 20px;
+        margin-right: 50px;
     }
 
     .people {
@@ -258,7 +260,7 @@
     }
 
     .shipping-wrap {
-        margin-left: 146px;
+        margin-left: 20px;
     }
 
     .people {
